@@ -8,13 +8,13 @@ def index():
     return render_template('index.html')
 
 @app.route('/projects')
-def index():
+def projects():
     return render_template('projects.html')
 
 @app.route('/resume')
-def index():
+def resume():
     return render_template('resume.html')
 
 @app.route('/connect')
-def index():
+def connect():
     return render_template('connect.html')
