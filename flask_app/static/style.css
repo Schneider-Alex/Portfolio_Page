@@ -1,12 +1,59 @@
+body{
+    background: peachpuff
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 25%;
+    border-radius: 10px;
+    border:1px solid lightgray;
+    background-color: rgb(243, 177, 119);
+}
+.navbar:hover{
+    background-color: rgb(243, 170, 106);
 }
 
 .navbar_right{
+    flex:0.4;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.navbar_right > a{
+    font-family:Apple Chancery, cursive;
+    padding: 5px;
+    
+    border: lightgray solid 1px;
+    border-radius: 10px;
+}
+.navbar_right > a:hover{
+    font-size: 20px;
+    color:white;
+    background-color: gray;
+}
+
+.navbar_left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar_left>h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.navbar_left>img{
+    border-radius: 50%;
+    width: 80px;
+    object-fit: cover;
+    margin-right:10px;
+}
+
 
